@@ -1,0 +1,260 @@
+.control-label{
+    text-align: right!important;
+    font-weight: 400;
+    padding-top: 5px;
+    font-size: 14px;
+    color: black;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+label input[type=checkbox].checkbox+span:before, label input[type=radio].radiobox+span:before {
+    margin-left: 7px;
+}
+input[type=number]{
+    direction: ltr;
+}
+table.table-bordered td:last-child, table.table-bordered th:last-child {
+    border-left-width: 0;
+    border-right-width: 1px;
+}
+.selectCSys-container .select-choice .select-arrow {
+    left: 0;
+    right: initial!important;
+}
+.remove-responsable {
+    position: relative!important;
+    top: -12px!important;
+    background-color: white!important;
+    float: left!important;
+    color: red!important;
+    padding: 1px 3px 2px 3px!important;
+    right: -7px!important;
+}
+.remove-responsable:hover {
+    position: relative!important;
+    top: -12px;
+    background-color: white !important;
+    float: left!important;
+    padding: 1px 3px 2px 3px!important;
+    right: -7px!important;
+    color: #7d0404!important;
+}
+.modal-header .close{
+    float: left!important;
+}
+.modal-footer{
+    text-align: left;
+}
+.closeTab {
+    left: 7px!important;
+    right: inherit!important;
+}
+.groupeFiltre{
+    display: flex;
+}
+.dropdown-menu{
+    left: 0px!important;
+    right: inherit!important;
+}
+th{
+    text-align: right!important;
+}
+aside {
+    left:  0px;
+    top: 75px;
+    right: inherit;
+}
+aside > .header-aside {
+    padding: 0 32px 0 7px;
+}
+aside.slideInRight{
+    animation-name: slideInLeft;
+}
+.table {
+    font-size: 12px!important;
+}
+#entete .btn{
+    font-size: 13px!important;
+}
+.header-csys{
+    font-size: 16px!important;
+}
+aside > .header-aside h3 {
+    font-size: 14px!important;
+}
+.tile .text, .tile .title, .tile .tilecontent .tile .caption, .tile .sub, .tile .title-right{
+    font-size: 16px!important;
+}
+h1 small{
+    font-size: 18px!important;
+}
+.smart-form .input input, .smart-form .select select, .smart-form .textarea textarea{
+    font-size: 13px!important;
+}
+div.royal_tab > .tabs > div > .ui-tabs-nav{
+    font-size: 13px !important;
+}
+.TabsCsys.tabs-left .tabs-left{
+    float: right!important;
+    padding: 0!important;
+    margin-right: 0!important;
+    margin-left: 19px !important;
+}
+.TabsCsys.tabs-left .tab-content{
+    margin-right: 170px!important;
+    margin-left: 0 !important;
+}
+.selectCSys-multiple-container > .selectCSys-selection-collection-container > .selectCSys-selection-collection > li.selectCSys-selection-choice > .selectCSys-selection-choice-remove {
+    float: left;
+}
+#entete .btn{
+    padding: 4px 12px!important;
+}
+.table>thead>tr>th{
+    font-size: 12px!important;
+}
+.table>thead>tr>th>span{
+    float: left!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.nav-tabs>li {
+    float: right;
+    margin-bottom: -1px;
+
+}
+.nav-tabs {
+    padding-right: 1px;
+}
+.closeSousModule {
+    right: initial!important;
+    left: 0!important;
+}
+input[type=date]{
+    text-align: right;
+}
+.sous-menus.on {
+    left: initial !important;
+    right: 28% !important;
+}
+.bootstrapWizard li {
+    float: right;
+}
+.bootstrapWizard li:first-child:before {
+    right: 50%;
+    max-width: 50%;
+}
+.bootstrapWizard li:before {
+    left: 1px;
+    right: initial;
+}
+.modal-footer .fa-arrow-right:before{
+    content: "\f060"!important;
+}
+.modal-footer .fa-arrow-left:before{
+    content: "\f061"!important;
+}
+.modal-footer .btn{
+    font-size: 13px!important;
+}
+.modal-footer .btn-precedent{
+    float: right!important;
+}
+fieldset.row-table-csys .delete-row{
+    position: relative!important;
+    top: -22px!important;
+    background-color: white!important;
+    float: left!important;
+    color: red!important;
+    padding: 0px;
+    right: -3px !important;
+}
+
+.header > div:nth-child(1) {
+    float: right;
+    height: 38px;
+}
+
+.header > div:nth-child(2) {
+    float: right;
+    height: 38px;
+}
+
+.header > div:nth-child(3) {
+    float: left !important;
+    height: 38px;
+}
+.pull-right{
+    float: left !important;
+}
+.btn-header.pull-right {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#badge_notification {
+    left: 105px !important;
+    right: 0 !important;
+}
+
+.global_breadcrumbs {
+    font-size: 16px;
+    display: inline;
+    margin-right: 170px;
+    color: ghostwhite;
+    text-transform: capitalize;
+}
+.modal-body{
+    font-size: 16px!important;
+}
+
+/*  own Style  */
+
+#listModules .tile i.ellipsis {
+    right: initial !important;
+    left: 7px;
+}
+
+#listModules .subMenu > a > i.icon {
+    padding-right: 15px;
+}
+
+.module {
+    left: initial !important;
+    right: 100px;
+}
+
+.module > p {
+    order: 2;
+    padding-right: 13px;
+}
+
+.module > i {
+    order: 1;
+}
+
+#listModules .tile .title {
+    padding-right: 10px;
+    padding-left: 24px;
+}
+
+#listModules .tile ul.sous-menus > li {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+#listModules .tile ul.sous-menus > li > p {
+    padding-left: 0px;
+    padding-right: 7px;
+}
+
+#listModules .tile.subMenu > a > ul.sous-menus {
+    left: initial;
+    transform-origin: right 35%;
+    right: 230px;
+    min-width: 345px;
+}
+#application #app_list {
+    left: 0 !important;
+    right: initial !important;
+}

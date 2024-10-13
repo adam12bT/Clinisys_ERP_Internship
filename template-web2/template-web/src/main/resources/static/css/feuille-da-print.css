@@ -1,0 +1,118 @@
+@media print  {
+    @page { 
+        size: landscape; 
+ 
+        margin-top: 0.1in; 
+        margin-bottom: 0.7in;
+        margin-left: 0.1in;
+        margin-right: 0.1in;
+
+
+    }
+
+    /*@page { size:portrait; marks:none;size: 21.0cm;margin: 0cm ;}*/
+    .dont-break { page-break-inside:avoid !important; 
+    }
+    
+
+    #tableimprda>table>tr{
+        page-break-inside:avoid !important; 
+    }
+    .print {
+        display: inline!important; /* affichage des ï¿½lï¿½ments de classe print */
+        margin-top: 2% !important;
+    }
+    .screen{
+        display: none !important;
+    }
+    table  {
+        border-collapse: collapse;
+        border:1px solid #000 !important; 
+        width: 100% !important;
+        margin-top: 1% !important;
+    } 
+    thead, tbody, tr, th, td{
+        border:1px solid #000 !important;   
+    }
+    td , th{
+        font-size:8px!important;
+    }
+    #tableimprda{
+        overflow-y: hidden !important;
+        max-height: none !important;
+        /*margin-top: 2% !important;*/
+        width:100%  !important;
+    }
+    .date-container{
+        display:inline !important;
+        margin-left: 2% !important;
+    }
+    .date-container > .form-control{
+        border-width:0px !important;
+        border:none !important;
+    }
+    /*    .row{
+            margin: auto !important; 
+            text-align: center !important;
+        }*/
+    body {
+        -webkit-print-color-adjust: exact !important;
+    }
+    
+    .titrePrint{
+       
+        position:relative!important;
+        display: block!important;       
+        text-align: center !important;
+    }
+
+   
+    #tableimprda>table>tbody:last-child>tr:last-child{
+        background-color: #ecf3f8 !important;
+        font-weight: bold !important;
+    }
+    #tableimprda>table>thead{
+        background-color: #00cccc !important;
+        font-size:6px !important;
+    }
+
+    div.titlePage {page-break-before: always; page-break-after: always}
+    #nom_societe,#adr_societe,#ville_societe,#tel_societe,#fax_societe{
+        font-size:10px!important;
+        display:block!important;
+        margin-left: 20px!important;
+        
+    }
+    #date,#time{
+        font-size:10px!important;
+        display:block!important;
+        float:left!important;
+        margin-left: 1%!important;
+    }
+    div.entete_line{
+        display:block!important;
+        padding-top:8%!important;
+        border-bottom: 1px solid #000!important;
+        /*margin-bottom: 10%!important;*/
+    }
+    div.footer_line{
+        display:block!important;
+        border-bottom: 1px solid #000!important;
+    }
+    div.entete{
+        display:block!important;
+        margin-top:-1%!important;
+    }
+    #footer {
+        /*bottom: 100px!important;*/ 
+        /*        display: block!important; 
+                position: fixed!important; 
+                bottom: 1%!important;*/
+    } 
+    .show{
+        display: inline!important;
+    }
+    .hide{
+        display: none!important;
+    }
+}

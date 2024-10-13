@@ -1,0 +1,112 @@
+table tbody {
+    /* body takes all the remaining available space */
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 88px ;
+    max-height:88px;
+}
+#liste_bareCode tbody {
+    /* body takes all the remaining available space */
+
+    min-height: 60px
+
+}
+
+table thead,table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+table thead {
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% -  6px) !important;;
+}
+table tbody tr {
+    width: 100%;
+}
+table{
+    font-size: 12px;
+}
+liste_article.action{
+    width:20%;
+}
+#liste_bareCode.action{
+    width:30%;
+}
+.priuni{
+    width:28%;
+}
+.raiSoc{
+    width:37%;
+         white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.codfrs  {
+    width:15%;
+}
+.barCode  {
+    width:70%;
+}
+.margin-bottom-5{
+    margin-bottom: 5px;
+
+}
+
+.dropdownFrs{
+    font-size: 12px;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+.well {
+    padding:20px;
+}
+.slider-range{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+input[type="number"]{
+    direction: rtl;
+}
+legend {
+    /* font-weight: 400; */
+    font-size: 15px;
+}
+section span , .inline-group label {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.smart-form{
+    padding-left: 13px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+span#codFrs{
+
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#update{
+    display: none
+}
+.automatique{
+    padding-left: 68px;
+}
+.padding-0{
+    padding: 0px;
+}
+
+.padding-left-0{
+    padding-left: 0px; 
+}

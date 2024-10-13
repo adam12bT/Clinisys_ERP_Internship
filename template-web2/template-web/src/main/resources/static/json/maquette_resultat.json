@@ -1,0 +1,226 @@
+[
+    {
+
+        "codeDetailsEtat": "2",
+        "codeSaisieDetailsEtat": "R11",   
+        "numCpt": "709",
+        "codeSens": "M"          
+    },
+    {
+
+        "codeDetailsEtat": "2",
+        "codeSaisieDetailsEtat": "R11",         
+        "numCpt": "713",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "3",
+        "codeSaisieDetailsEtat": "R12",         
+        "numCpt": "706",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "7",
+        "codeSaisieDetailsEtat": "R21",                 
+        "numCpt": "603",
+        "codeSens": "M" 
+    }, 
+    {
+
+        "codeDetailsEtat": "8",
+        "codeSaisieDetailsEtat": "R22",                 
+        "numCpt": "604",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "8",
+        "codeSaisieDetailsEtat": "R22",                 
+        "numCpt": "607",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "10",
+        "codeSaisieDetailsEtat": "R24",                
+        "numCpt": "6021",
+        "codeSens": "M"
+    },  
+    {
+
+        "codeDetailsEtat": "10",
+        "codeSaisieDetailsEtat": "R24",                       
+        "numCpt": "605",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "10",
+        "codeSaisieDetailsEtat": "R24",                       
+        "numCpt": "606",
+        "codeSens": "M"
+    }, 
+    {
+
+        "codeDetailsEtat": "11",
+        "codeSaisieDetailsEtat": "R25",                
+        "numCpt": "647",
+        "codeSens": "M"
+    }, 
+    {
+
+        "codeDetailsEtat": "13",
+        "codeSaisieDetailsEtat": "R27",                
+        "numCpt": "68",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                       
+        "numCpt": "61",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                             
+        "numCpt": "621",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                             
+        "numCpt": "622",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                             
+        "numCpt": "623",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                              
+        "numCpt": "624",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                             
+        "numCpt": "625",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                              
+        "numCpt": "626",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                                     
+        "numCpt": "627",
+        "codeSens": "M"
+    }, 
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                       
+        "numCpt": "633",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                       
+        "numCpt": "661",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                              
+        "numCpt": "665",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "14",
+        "codeSaisieDetailsEtat": "R28",                             
+        "numCpt": "79",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "17",
+        "codeSaisieDetailsEtat": "R31",                           
+        "numCpt": "65",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "18",
+        "codeSaisieDetailsEtat": "R32",                              
+        "numCpt": "75",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "19",
+        "codeSaisieDetailsEtat": "R33",                             
+        "numCpt": "73",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "19",
+        "codeSaisieDetailsEtat": "R33",                                     
+        "numCpt": "781",
+        "codeSens": "C"
+    },
+    {
+
+        "codeDetailsEtat": "20",
+        "codeSaisieDetailsEtat": "R34",                                     
+        "numCpt": "634",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": "20",
+        "codeSaisieDetailsEtat": "R34",                                            
+        "numCpt": "636",
+        "codeSens": "M"
+    }, 
+    {
+
+        "codeDetailsEtat": "22",
+        "codeSaisieDetailsEtat": "R36",                                     
+        "numCpt": "69",
+        "codeSens": "D"
+    },
+    {
+
+        "codeDetailsEtat": "25",
+        "codeSaisieDetailsEtat": "R3801",                                            
+        "numCpt": "77",
+        "codeSens": "C"
+    },
+    {
+
+        "codeDetailsEtat": "26",
+        "codeSaisieDetailsEtat": "R3802",                                                    
+        "numCpt": "67",
+        "codeSens": "D"
+    }
+] 

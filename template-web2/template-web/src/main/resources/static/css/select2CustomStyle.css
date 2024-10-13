@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 févr. 2017, 11:25:14
+    Author     : Farouk
+*/
+
+.select2-result-label{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.select2-container .select2-choice{
+    line-height: 22px;
+}
+.select2-container .select2-choice > .select2-chosen{
+    margin-right: 20px;
+}
+.select2-container .select2-choice .select2-arrow{
+    width: 20px;
+}
+.select2-container .select2-choice, .select2-result {
+    font-size: 12px;
+    height: 24px;
+}
+.select2-container {
+    padding-right: 10px!important;
+    padding-left: 0px!important;
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+    box-sizing: border-box!important;
+}
+tr .select2-container { 
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+.myDropDoxnStyle{
+    width: 600px !important;
+}
+.myDropDoxnStyle_XLL .select2-results .select2-result-label,.myDropDoxnStyle_XL .select2-results .select2-result-label,.myDropDoxnStyle .select2-results .select2-result-label,.myDropDoxnStyle_L .select2-results .select2-result-label{
+    padding:0;
+}
+.select2-result-label th,.select2-result-label td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.select2-results table thead{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+.select2-results table  thead{
+    width: 100%!important;
+    flex: 0 0 auto;
+}
+
+
+.select2-results table tbody {
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: auto !important;
+}
+.select2-results table thead,.select2-results table tbody tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+li.select2-results-dept-0.select2-result.select2-result-unselectable {
+    position: sticky;
+    top: 0;
+}
+

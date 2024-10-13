@@ -1,0 +1,342 @@
+[{        
+        "codeDetailsEtat": 5,
+        "codeSaisieDetailsEtat": "A1101",        
+        "numCpt": "21",        
+        "codeSens": "M"       
+    },
+    {
+        "codeDetailsEtat": 25,
+        "codeSaisieDetailsEtat": "A28",               
+        "numCpt": "22",       
+        "codeSens": "M"      
+    },
+    {
+        "codeDetailsEtat": 8,
+        "codeSaisieDetailsEtat": "A1104",                      
+        "numCpt": "232",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 8,
+        "codeSaisieDetailsEtat": "A1104",                      
+        "numCpt": "24",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 9,
+        "codeSaisieDetailsEtat": "A1105",                       
+        "numCpt": "282",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 11,
+        "codeSaisieDetailsEtat": "A1107",                              
+        "numCpt": "251",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 11,
+        "codeSaisieDetailsEtat": "A1107",                                     
+        "numCpt": "256",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 11,
+        "codeSaisieDetailsEtat": "A1107",                              
+        "numCpt": "264",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 11,
+        "codeSaisieDetailsEtat": "A1107",                              
+        "numCpt": "265",
+        "codeSens": "M"
+    }, 
+    {
+        "codeDetailsEtat": 15,
+        "codeSaisieDetailsEtat": "A12",                                     
+        "numCpt": "27",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 18,
+        "codeSaisieDetailsEtat": "A21",                                             
+        "numCpt": "31",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 18,
+        "codeSaisieDetailsEtat": "A21",                                                     
+        "numCpt": "32",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 18,
+        "codeSaisieDetailsEtat": "A21",                                                     
+        "numCpt": "37",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 22,
+        "codeSaisieDetailsEtat": "A25",                                             
+        "numCpt": "39",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 21,
+        "codeSaisieDetailsEtat": "A24",                                                     
+        "numCpt": "41",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 21,
+        "codeSaisieDetailsEtat": "A24",                                                    
+        "numCpt": "461",
+        "codeSens": "D"
+    },
+    {
+        "codeDetailsEtat": 21,
+        "codeSaisieDetailsEtat": "A24",                                                          
+        "numCpt": "531",
+        "codeSens": "C"
+    },
+    {
+        "codeDetailsEtat": 22,
+        "codeSaisieDetailsEtat": "A25",                                                                 
+        "numCpt": "491",
+        "codeSens": "M",
+        "codeType": "D"
+    }, 
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                         
+        "numCpt": "409",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                         
+        "numCpt": "421",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                
+        "numCpt": "422",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                
+        "numCpt": "428",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                 
+        "numCpt": "434",
+        "codeSens": "D"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                 
+        "numCpt": "436",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                 
+        "numCpt": "438",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                 
+        "numCpt": "441",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 24,
+        "codeSaisieDetailsEtat": "A27",                                                                                 
+        "numCpt": "471",
+        "codeSens": "M"
+    },  
+    {
+        "codeDetailsEtat": 26,
+        "codeSaisieDetailsEtat": "A29",                                                                                
+        "numCpt": "531",
+        "codeSens": "D"
+    },
+    {
+
+        "codeDetailsEtat": 26,
+        "codeSaisieDetailsEtat": "A29",                                                                                   
+        "numCpt": "532",
+        "codeSens": "D"
+    }, 
+    {
+
+        "codeDetailsEtat": 26,
+        "codeSaisieDetailsEtat": "A29",                                                                                       
+        "numCpt": "541",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 30,
+        "codeSaisieDetailsEtat": "P11",                                                                                        
+        "numCpt": "101",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 33,
+        "codeSaisieDetailsEtat": "P14",                                                                                                
+        "numCpt": "121",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 33,
+        "codeSaisieDetailsEtat": "P14",                                                                                                      
+        "numCpt": "128",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 33,
+        "codeSaisieDetailsEtat": "P14",                                                                                                      
+        "numCpt": "131",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 33,
+        "codeSaisieDetailsEtat": "P14",                                                                                                      
+        "numCpt": "135",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 41,
+        "codeSaisieDetailsEtat": "P2101",                                                                                                     
+        "numCpt": "162",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 44,
+        "codeSaisieDetailsEtat": "P2104",                                                                                                      
+        "numCpt": "151",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 47,
+        "codeSaisieDetailsEtat": "P2201",                                                                                                             
+        "numCpt": "401",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 47,
+        "codeSaisieDetailsEtat": "P2201",                                                                                                                    
+        "numCpt": "403",
+        "codeSens": "M"      
+    },
+    {
+        "codeDetailsEtat": 47,
+        "codeSaisieDetailsEtat": "P2201",                                                                                                                    
+        "numCpt": "404",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 47,
+        "codeSaisieDetailsEtat": "P2201",                                                                                                             
+        "numCpt": "405",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 47,
+        "codeSaisieDetailsEtat": "P2201",                                                                                                             
+        "numCpt": "408",
+        "codeSens": "M"
+    }, 
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                            
+        "numCpt": "425",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                    
+        "numCpt": "432",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                    
+        "numCpt": "434",
+        "codeSens": "C"
+    }, 
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                           
+        "numCpt": "437",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                            
+        "numCpt": "442",
+        "codeSens": "M"
+    }, 
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                           
+        "numCpt": "453",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                            
+        "numCpt": "457",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                            
+        "numCpt": "458",
+        "codeSens": "M"
+    },
+    {
+        "codeDetailsEtat": 48,
+        "codeSaisieDetailsEtat": "P2202",                                                                                                                    
+        "numCpt": "461",
+        "codeSens": "C"
+    },
+    {
+        "codeDetailsEtat": 49,
+        "codeSaisieDetailsEtat": "P2203",                                                                                                                            
+        "numCpt": "505",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 49,
+        "codeSaisieDetailsEtat": "P2203",                                                                                                                                    
+        "numCpt": "508",
+        "codeSens": "M"
+    },
+    {
+
+        "codeDetailsEtat": 49,
+        "codeSaisieDetailsEtat": "P2203",                                                                                                                                    
+        "numCpt": "532",
+        "codeSens": "C"
+    }
+]

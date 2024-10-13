@@ -1,0 +1,102 @@
+*{
+    font-family: arial;
+}
+
+/*    .headerPiece div{
+        padding: 2px 44px 0px 37px;
+    }*/
+    .societe{
+        float:left;
+        font-size: 11px;
+    }
+    .clinisys,.dateNow{
+        float:right;
+        font-size: 10px;
+    }
+    .userImp{
+        font-size: 10px;
+    }
+    .entete{
+        padding: 0px 0px 0px 0px;
+        font-size: 10px
+    }
+    .contenu{
+        padding: 10px 0px 0px 0px;
+    }
+    .contenu table{
+        /*border: 1px solid black;*/
+        width: 100%;
+        font-size: 12px;
+    }
+    .imageCode img{
+        width:70px;
+        height:70px;
+        border: 1px solid black;
+    }
+    .imageCode{
+        width:90px;
+    }
+    .nameSoc{
+        font-size: 13px;
+    }
+    .date{
+        width: 10%;
+    }
+    .adrSoc{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .tvaSoc{
+        font-size: 10px;
+    }
+    .telSoc,.faxSoc{
+        width: 25%
+    }
+    #titlePiece{
+        padding: 0px 0px 0px 0px;
+    }
+    #titlePiece > center > span{
+        font-size: 15px;
+        font-family: arial;
+    }
+    #infoPiece{
+        padding: 0px 0px 0px 0px;
+        font-size: 12px;
+    }
+    .nbPage{
+        float: right;
+        font-size: 10px;
+    }
+    .valTotal{
+        float: right;
+    }
+    .contenu table thead th{
+        border: 1px solid black;
+        text-align: left;
+        font-weight: 300;
+    }
+    .cellDate,.cellLib,.cellOper,.cellPiece,.cellPrix,.cellEntree,.cellSorti,.cellSold{
+        height: 25px;
+        border: 1px solid black;
+        padding: 3px 5px 3px 5px;
+    }
+    .cellPrix,.cellEntree,.cellSorti,.cellSold{
+        text-align: right;
+    }
+    .total{
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .totalSolde{
+        border: 1px solid black;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .footer{
+        padding: 0px 0px 0px 0px;
+/*        position: fixed;
+        width: 100%;
+        bottom: 1cm;*/
+    }
+

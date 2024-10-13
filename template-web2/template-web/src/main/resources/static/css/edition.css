@@ -1,0 +1,1174 @@
+.tree li.parent_li>span:hover+ul li span {
+    background: #DF8505!important;
+    border: 1px solid #FAA937;
+    color: #000;
+}
+
+.waiting
+{	
+ background:url(../img/loading32x32.gif) center center no-repeat;
+ background-size: 100px 100px;
+}
+
+ul[role="groupe"] > li{
+    cursor: pointer;
+}
+.tree li.parent_li>span {
+    cursor: pointer;
+    padding: 3px;
+}
+.tree{
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#list_TVAglobal  > table tbody,
+#list_TVAglobal > table tbody{
+    /* body takes all the remaining available space */
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 323px; 
+    max-height: 323px;
+    height:auto !important;
+}
+#list_TVAglobal > table > thead th,
+#list_TVAglobal > table > thead th{
+    width: 4%;
+}
+#list_TVAglobal > table,
+#list_TVAglobal > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_TVAglobal > table thead, #list_TVAglobal > table tbody tr, 
+#list_TVAglobal > table thead, #list_TVAglobal > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_TVAglobal > table thead,
+#list_TVAglobal > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_TVAglobal > table tbody tr ,
+#list_TVAglobal > table tbody tr{
+    width: 100%;}
+#list_TVAglobal > table > thead tr th:nth-child(1),
+#list_TVAglobal > table > tbody tr td:nth-child(1),
+#list_TVAglobal > table > thead tr th:nth-child(2),
+#list_TVAglobal > table > tbody tr td:nth-child(2),
+#list_TVAglobal > table > thead tr th:nth-child(3),
+#list_TVAglobal > table > tbody tr td:nth-child(3),
+
+#list_TVAglobal > table > thead tr th:nth-child(5),
+#list_TVAglobal > table > tbody tr td:nth-child(5),
+#list_TVAglobal > table > thead tr th:nth-child(6),
+#list_TVAglobal > table > tbody tr td:nth-child(6),
+#list_TVAglobal > table > thead tr th:nth-child(7),
+#list_TVAglobal > table > tbody tr td:nth-child(7),
+#list_TVAglobal > table > thead tr th:nth-child(8),
+#list_TVAglobal > table > tbody tr td:nth-child(8)
+{
+    width: 8%;
+}
+#list_TVAglobal > table > thead tr th:nth-child(4),
+#list_TVAglobal > table > tbody tr td:nth-child(4)
+{ width: 14%;}
+#list_TVAglobal > table > thead tr th:nth-child(9),
+#list_TVAglobal > table > tbody tr td:nth-child(9),
+#list_TVAglobal > table > thead tr th:nth-child(10),
+#list_TVAglobal > table > tbody tr td:nth-child(10),
+#list_TVAglobal > table > thead tr th:nth-child(11),
+#list_TVAglobal > table > tbody tr td:nth-child(11),
+#list_TVAglobal > table > thead tr th:nth-child(12),
+#list_TVAglobal > table > tbody tr td:nth-child(12),
+#list_TVAglobal > table > thead tr th:nth-child(13),
+#list_TVAglobal > table > tbody tr td:nth-child(13){
+    width: 6%;
+}
+    /* tva arecupere*/
+#list_TVA,globavoirclt  > table tbody,
+#list_TVA > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_TVA > table > thead th,
+#list_TVA > table > thead th{
+    width: 4%;
+}
+#list_TVA > table,
+#list_TVA > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_TVA > table thead, #list_TVA > table tbody tr, 
+#list_TVA > table thead, #list_TVA > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_TVA > table thead,
+#list_TVA > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_TVA > table tbody tr ,
+#list_TVA > table tbody tr{
+    width: 100%;}
+#list_TVA > table > thead tr th:nth-child(1),
+#list_TVA > table > tbody tr td:nth-child(1),
+#list_TVA > table > thead tr th:nth-child(2),
+#list_TVA > table > tbody tr td:nth-child(2),
+#list_TVA > table > thead tr th:nth-child(12),
+#list_TVA > table > tbody tr td:nth-child(12),
+#list_TVA > table > thead tr th:nth-child(3),
+#list_TVA > table > tbody tr td:nth-child(3){
+    width: 7%;
+}
+#list_TVA > table > thead tr th:nth-child(5),
+#list_TVA > table > tbody tr td:nth-child(5),
+#list_TVA > table > thead tr th:nth-child(6),
+#list_TVA > table > tbody tr td:nth-child(6),
+#list_TVA > table > thead tr th:nth-child(7),
+#list_TVA > table > tbody tr td:nth-child(7),
+
+#list_TVA > table > thead tr th:nth-child(8),
+#list_TVA > table > tbody tr td:nth-child(8)
+{
+    width: 8%;
+}
+#list_TVA > table > thead tr th:nth-child(4),
+#list_TVA > table > tbody tr td:nth-child(4)
+{ width: 15%;}
+#list_TVA > table > thead tr th:nth-child(9),
+#list_TVA > table > tbody tr td:nth-child(9),
+#list_TVA > table > thead tr th:nth-child(10),
+#list_TVA > table > tbody tr td:nth-child(10),
+#list_TVA > table > thead tr th:nth-child(11),
+#list_TVA > table > tbody tr td:nth-child(11),
+
+#list_TVA > table > thead tr th:nth-child(13),
+#list_TVA > table > tbody tr td:nth-child(13){
+    width: 9%;
+}
+#globavoirclt > table tbody,
+#globavoirclt > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#globavoirclt  > table > thead th,
+#globavoirclt  > table > thead th{
+    width: 4%;
+}
+#globavoirclt  > table,
+#globavoirclt  > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#globavoirclt  > table thead, #globavoirclt > table tbody tr, 
+#globavoirclt  > table thead, #globavoirclt > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#globavoirclt  > table thead,
+#globavoirclt  > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#globavoirclt  > table tbody tr ,
+#globavoirclt  > table tbody tr{
+    width: 100%;}
+#globavoirclt  > table > thead tr th:nth-child(1),
+#globavoirclt  > table > tbody tr td:nth-child(1),
+#globavoirclt  > table > thead tr th:nth-child(2),
+#globavoirclt  > table > tbody tr td:nth-child(2),
+#globavoirclt  > table > thead tr th:nth-child(12),
+#globavoirclt  > table > tbody tr td:nth-child(12),
+#globavoirclt  > table > thead tr th:nth-child(3),
+#globavoirclt  > table > tbody tr td:nth-child(3){
+    width: 5%;
+}
+#globavoirclt  > table > thead tr th:nth-child(5),
+#globavoirclt  > table > tbody tr td:nth-child(5),
+#globavoirclt  > table > thead tr th:nth-child(6),
+#globavoirclt  > table > tbody tr td:nth-child(6),
+#globavoirclt  > table > thead tr th:nth-child(7),
+#globavoirclt  > table > tbody tr td:nth-child(7),
+
+#globavoirclt  > table > thead tr th:nth-child(8),
+#globavoirclt  > table > tbody tr td:nth-child(8)
+{
+    width: 6%;
+}
+#globavoirclt  > table > thead tr th:nth-child(4),
+#globavoirclt  > table > tbody tr td:nth-child(4)
+{ width: 22%;}
+#globavoirclt  > table > thead tr th:nth-child(9),
+#globavoirclt  > table > tbody tr td:nth-child(9),
+#globavoirclt  > table > thead tr th:nth-child(10),
+#globavoirclt  > table > tbody tr td:nth-child(10),
+#globavoirclt  > table > thead tr th:nth-child(11),
+#globavoirclt  > table > tbody tr td:nth-child(11),
+
+#globavoirclt  > table > thead tr th:nth-child(13),
+#globavoirclt  > table > tbody tr td:nth-child(13){
+    width: 8%;
+}
+#list_globpaye > table tbody,
+#list_globpaye > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_globpaye  > table > thead th,
+#list_globpaye  > table > thead th{
+    width: 4%;
+}
+#list_globpaye  > table,
+#list_globpaye  > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_globpaye  > table thead, #list_globpaye > table tbody tr, 
+#list_globpaye  > table thead, #list_globpaye > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_globpaye  > table thead,
+#list_globpaye  > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_globpaye  > table tbody tr ,
+#list_globpaye  > table tbody tr{
+    width: 100%;}
+#list_globpaye  > table > thead tr th:nth-child(1),
+#list_globpaye  > table > tbody tr td:nth-child(1),
+#list_globpaye  > table > thead tr th:nth-child(2),
+#list_globpaye  > table > tbody tr td:nth-child(2),
+#list_globpaye  > table > thead tr th:nth-child(12),
+#list_globpaye  > table > tbody tr td:nth-child(12),
+#list_globpaye  > table > thead tr th:nth-child(3),
+#list_globpaye  > table > tbody tr td:nth-child(3){
+    width: 7%;
+}
+#list_globpaye  > table > thead tr th:nth-child(5),
+#list_globpaye  > table > tbody tr td:nth-child(5),
+#list_globpaye  > table > thead tr th:nth-child(6),
+#list_globpaye  > table > tbody tr td:nth-child(6),
+#list_globpaye  > table > thead tr th:nth-child(7),
+#list_globpaye  > table > tbody tr td:nth-child(7),
+
+#list_globpaye  > table > thead tr th:nth-child(8),
+#list_globpaye  > table > tbody tr td:nth-child(8)
+{
+    width: 6%;
+}
+#list_globpaye  > table > thead tr th:nth-child(4),
+#list_globpaye  > table > tbody tr td:nth-child(4)
+{ width: 14%;}
+#list_globpaye  > table > thead tr th:nth-child(9),
+#list_globpaye  > table > tbody tr td:nth-child(9),
+#list_globpaye  > table > thead tr th:nth-child(10),
+#list_globpaye  > table > tbody tr td:nth-child(10),
+#list_globpaye  > table > thead tr th:nth-child(11),
+#list_globpaye  > table > tbody tr td:nth-child(11),
+
+#list_globpaye  > table > thead tr th:nth-child(13),
+#list_globpaye  > table > tbody tr td:nth-child(13){
+    width: 8%;
+}
+
+#tvaavoirclt > table tbody,
+#tvaavoirclt > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#tvaavoirclt  > table > thead th,
+#tvaavoirclt  > table > thead th{
+    width: 4%;
+}
+#tvaavoirclt  > table,
+#tvaavoirclt  > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#tvaavoirclt  > table thead, #tvaavoirclt > table tbody tr, 
+#tvaavoirclt  > table thead, #tvaavoirclt > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#tvaavoirclt  > table thead,
+#tvaavoirclt  > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#tvaavoirclt  > table tbody tr ,
+#tvaavoirclt  > table tbody tr{
+    width: 100%;}
+#tvaavoirclt  > table > thead tr th:nth-child(1),
+#tvaavoirclt  > table > tbody tr td:nth-child(1),
+#tvaavoirclt  > table > thead tr th:nth-child(2),
+#tvaavoirclt  > table > tbody tr td:nth-child(2),
+#tvaavoirclt  > table > thead tr th:nth-child(12),
+#tvaavoirclt  > table > tbody tr td:nth-child(12),
+#tvaavoirclt  > table > thead tr th:nth-child(3),
+#tvaavoirclt  > table > tbody tr td:nth-child(3){
+    width: 5%;
+}
+#tvaavoirclt  > table > thead tr th:nth-child(5),
+#tvaavoirclt  > table > tbody tr td:nth-child(5),
+#tvaavoirclt  > table > thead tr th:nth-child(6),
+#tvaavoirclt  > table > tbody tr td:nth-child(6),
+#tvaavoirclt  > table > thead tr th:nth-child(7),
+#tvaavoirclt  > table > tbody tr td:nth-child(7),
+
+#tvaavoirclt  > table > thead tr th:nth-child(8),
+#tvaavoirclt  > table > tbody tr td:nth-child(8)
+{
+    width: 6%;
+}
+#tvaavoirclt  > table > thead tr th:nth-child(4),
+#tvaavoirclt  > table > tbody tr td:nth-child(4)
+{ width: 22%;}
+#tvaavoirclt  > table > thead tr th:nth-child(9),
+#tvaavoirclt  > table > tbody tr td:nth-child(9),
+#tvaavoirclt  > table > thead tr th:nth-child(10),
+#tvaavoirclt  > table > tbody tr td:nth-child(10),
+#tvaavoirclt  > table > thead tr th:nth-child(11),
+#tvaavoirclt  > table > tbody tr td:nth-child(11),
+
+#tvaavoirclt  > table > thead tr th:nth-child(13),
+#tvaavoirclt  > table > tbody tr td:nth-child(13){
+    width: 8%;
+}
+    /* list_max*/
+#list_max  > table tbody,
+#list_max > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_max > table > thead th,
+#list_max > table > thead th{
+    width: 4%;
+}
+#list_max > table,
+#list_max > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_max > table thead, #list_max > table tbody tr, 
+#list_max > table thead, #list_max > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_max > table thead,
+#list_max > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_max > table tbody tr ,
+#list_max > table tbody tr{
+    width: 100%;}
+#list_max > table > thead tr th:nth-child(1),
+#list_max > table > tbody tr td:nth-child(1),
+
+#list_max > table > thead tr th:nth-child(3),
+#list_max > table > tbody tr td:nth-child(3),
+
+#list_max > table > thead tr th:nth-child(5),
+#list_max > table > tbody tr td:nth-child(5),
+#list_max > table > thead tr th:nth-child(4),
+#list_max > table > tbody tr td:nth-child(4)
+
+{
+    width: 15%;
+}
+#list_max > table > thead tr th:nth-child(2),
+#list_max > table > tbody tr td:nth-child(2)
+{ width: 40%;}
+    /* list_max*/
+#list_detailstkbydept  > table tbody,
+#list_detailstkbydept > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_max > table > thead th,
+#list_max > table > thead th{
+    width: 4%;
+}
+#list_detailstkbydept > table,
+#list_detailstkbydept > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_detailstkbydept > table thead, #list_detailstkbydept > table tbody tr, 
+#list_detailstkbydept > table thead, #list_detailstkbydept > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_detailstkbydept > table thead,
+#list_detailstkbydept > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_detailstkbydept > table tbody tr ,
+#list_detailstkbydept > table tbody tr{
+    width: 100%;}
+
+#list_detailstkbydept > table > thead tr th:nth-child(1),
+#list_detailstkbydept  > table > tbody tr td:nth-child(1),
+
+#list_detailstkbydept  > table > thead tr th:nth-child(3),
+#list_detailstkbydept  > table > tbody tr td:nth-child(3),
+
+#list_detailstkbydept  > table > thead tr th:nth-child(5),
+#list_detailstkbydept  > table > tbody tr td:nth-child(5),
+#list_detailstkbydept  > table > thead tr th:nth-child(4),
+#list_detailstkbydept  > table > tbody tr td:nth-child(4)
+
+{
+    width: 15%;
+}
+#list_detailstkbydept  > table > thead tr th:nth-child(2),
+#list_detailstkbydept  > table > tbody tr td:nth-child(2)
+{ width: 40%;}
+#list_etatAchglob  > table tbody,
+#list_etatAchglob > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_etatAchglob > table > thead th,
+#list_etatAchglob > table > thead th{
+    width: 4%;
+}
+#list_etatAchglob > table,
+#list_etatAchglob > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_etatAchglob > table thead, #list_etatAchglob > table tbody tr, 
+#list_etatAchglob > table thead, #list_etatAchglob > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_etatAchglob > table thead,
+#list_etatAchglob > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_etatAchglob > table tbody tr ,
+#list_etatAchglob > table tbody tr{
+    width: 100%;}
+
+#list_etatAchglob > table > thead tr th:nth-child(1),
+#list_etatAchglob  > table > tbody tr td:nth-child(1),
+#list_etatAchglob  > table > thead tr th:nth-child(3),
+#list_etatAchglob  > table > tbody tr td:nth-child(3),
+#list_etatAchglob > table > thead tr th:nth-child(4),
+#list_etatAchglob  > table > tbody tr td:nth-child(4)
+
+{
+    width: 20%;
+}
+#list_etatAchglob  > table > thead tr th:nth-child(2),
+#list_etatAchglob  > table > tbody tr td:nth-child(2)
+{ width: 40%;}
+#list_etatAcharr  > table tbody,
+#list_etatAcharr  > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_etatAcharr  > table > thead th,
+#list_etatAcharr  > table > thead th{
+    width: 4%;
+}
+#list_etatAcharr  > table,
+#list_etatAcharr  > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_etatAcharr  > table thead, #list_etatAcharr  > table tbody tr, 
+#list_etatAcharr  > table thead, #list_etatAcharr  > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_etatAcharr  > table thead,
+#list_etatAcharr  > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_etatAcharr  > table tbody tr ,
+#list_etatAcharr  > table tbody tr{
+    width: 100%;}
+
+#list_etatAcharr  > table > thead tr th:nth-child(1),
+#list_etatAcharr   > table > tbody tr td:nth-child(1),
+#list_etatAcharr   > table > thead tr th:nth-child(3),
+#list_etatAcharr   > table > tbody tr td:nth-child(3),
+#list_etatAcharr  > table > thead tr th:nth-child(4),
+#list_etatAcharr   > table > tbody tr td:nth-child(4),
+#list_etatAcharr  > table > thead tr th:nth-child(5),
+#list_etatAcharr   > table > tbody tr td:nth-child(5),
+#list_etatAcharr  > table > thead tr th:nth-child(6),
+#list_etatAcharr   > table > tbody tr td:nth-child(6)
+{
+    width: 15%;
+}
+#list_etatAcharr   > table > thead tr th:nth-child(2),
+#list_etatAcharr   > table > tbody tr td:nth-child(2)
+{ width: 25%;}
+
+#list_editFicheArt  > table tbody,
+#list_editFicheArt  > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_editFicheArt  > table > thead th,
+#list_editFicheArt  > table > thead th{
+    width: 4%;
+}
+#list_editFicheArt  > table,
+#list_editFicheArt  > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_editFicheArt  > table thead, #list_editFicheArt  > table tbody tr, 
+#list_editFicheArt  > table thead, #list_editFicheArt  > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_editFicheArt  > table thead,
+#list_editFicheArt  > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_editFicheArt  > table tbody tr ,
+#list_editFicheArt  > table tbody tr{
+    width: 100%;}
+
+#list_editFicheArt  > table > thead tr th:nth-child(1),
+#list_editFicheArt   > table > tbody tr td:nth-child(1),
+#list_editFicheArt   > table > thead tr th:nth-child(3),
+#list_editFicheArt   > table > tbody tr td:nth-child(3),
+#list_editFicheArt  > table > thead tr th:nth-child(4),
+#list_editFicheArt   > table > tbody tr td:nth-child(4),
+#list_editFicheArt  > table > thead tr th:nth-child(5),
+#list_editFicheArt   > table > tbody tr td:nth-child(5),
+#list_editFicheArt  > table > thead tr th:nth-child(6),
+#list_editFicheArt   > table > tbody tr td:nth-child(6),
+#list_editFicheArt  > table > thead tr th:nth-child(7),
+#list_editFicheArt   > table > tbody tr td:nth-child(7),
+#list_editFicheArt  > table > thead tr th:nth-child(8),
+#list_editFicheArt   > table > tbody tr td:nth-child(8)
+{
+    width: 10%;
+}
+#list_editFicheArt   > table > thead tr th:nth-child(2),
+#list_editFicheArt   > table > tbody tr td:nth-child(2)
+{ width: 20%;}
+.qtestk{
+    text-align: right;
+}
+.priuni{
+    text-align: right;
+}
+ 
+.toolbar 
+{
+    float: left;
+}
+ 
+.dataEvenement[disabled]
+{
+    background-color: #E7F6DA;
+}
+#demo-setting
+{
+    display: none;
+}
+#demo form
+{
+    display: none;
+}
+.dataTable tbody .details-control {
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    width: 2%;
+}
+.dataTable tbody .cellmntht {
+    text-align: right;
+}
+
+.TdDesArt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70px;
+
+}
+
+
+#list_TVAglobal > table > tbody tr td:nth-child(5),
+#list_TVAglobal > table > tbody tr td:nth-child(6),
+#list_TVAglobal > table > tbody tr td:nth-child(7),
+#list_TVAglobal > table > tbody tr td:nth-child(8){
+    text-align: right;
+}
+#list_editConsomDet > table > thead tr th:nth-child(1),
+#list_editConsomDet > table > tbody tr td:nth-child(1){
+    width: 14%;
+}
+#list_editConsomDet > table > thead tr th:nth-child(2),
+#list_editConsomDet > table > tbody tr td:nth-child(2),
+#list_editConsomDet > table > thead tr th:nth-child(3),
+#list_editConsomDet > table > tbody tr td:nth-child(3){
+    width: 18%;
+}
+#list_editConsomDet > table > thead tr th:nth-child(4),
+#list_editConsomDet > table > tbody tr td:nth-child(4),
+#list_editConsomDet > table > thead tr th:nth-child(5),
+#list_editConsomDet > table > tbody tr td:nth-child(5),
+#list_editConsomDet > table > thead tr th:nth-child(6),
+#list_editConsomDet > table > tbody tr td:nth-child(6),
+#list_editConsomDet > table > thead tr th:nth-child(7),
+#list_editConsomDet > table > tbody tr td:nth-child(7),
+#list_editConsomDet > table > thead tr th:nth-child(8),
+#list_editConsomDet > table > tbody tr td:nth-child(8){
+    width: 10%;
+}
+#list_editConsomDet > table > tbody tr td:nth-child(5),
+#list_editConsomDet > table > tbody tr td:nth-child(6),
+#list_editConsomDet > table > tbody tr td:nth-child(7),
+#list_editConsomDet > table > tbody tr td:nth-child(8){
+    text-align: right;
+}
+.select2-result-label{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+ 
+.scrol{
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 437px;
+    max-height: 437px;
+    height: auto !important;
+}
+.scrdol1{
+    flex: 1 1 auto;
+    width: 104%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 437px;
+    max-height: 437px;
+    height: auto !important;
+     padding-left: 7px !important;
+    padding-right: 5px !important;
+}
+
+
+
+.scrol2{
+    flex: 1 1 auto;
+    width: 103%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 350px;
+    max-height: 350px;
+    height: auto !important;
+    padding-left: 4px;
+}
+.desArt,.codArt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 208px;
+}
+.desArt{
+    max-width: 130px;
+}
+.codArt{
+    max-width: 250px;
+}
+ 
+.etatAchSection.etatGlobal:nth-child(1){
+    padding: 0px;
+    width:283px;
+}
+.etatAchSection.etatGlobal:nth-child(2){
+    width: calc(100% - 283px);
+}
+.etatAchSection.etatDetail:nth-child(1){
+    padding: 0px;
+    width:479px;
+}
+.etatAchSection.etatDetail:nth-child(2){
+    width: calc(100% - 479px);
+}
+.etatAchSection.etatNArriv:nth-child(1){
+    padding: 0px;
+    width:441px;
+}
+.etatAchSection.etatNArriv:nth-child(2){
+    width: calc(100% - 441px);
+}
+.multiselect-container .checkbox input{
+    left: 26px;
+}
+.multiselect-container li.active label{
+    color: white;
+}
+button.multiselect{
+    padding: 3px 12px;
+}
+.hide-native-select > div, .hide-native-select > div > button{
+    width: 100%;
+}
+#etatvente  > table tbody,
+#etatvente > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#etatvente > table > thead th,
+#etatvente > table > thead th{
+    width: 4%;
+}
+#etatvente > table,
+#etatvente > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#etatvente > table thead, #etatvente > table tbody tr, 
+#etatvente > table thead, #etatvente > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#etatvente > table thead,
+#etatvente > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#etatvente > table tbody tr ,
+#etatvente > table tbody tr{
+    width: 100%;}
+#etatvente > table > thead tr th:nth-child(1),
+#etatvente > table > tbody tr td:nth-child(1)
+{
+    width: 10%;
+}
+#etatvente > table > thead tr th:nth-child(3),
+#etatvente > table > tbody tr td:nth-child(3),
+
+#etatvente > table > thead tr th:nth-child(5),
+#etatvente > table > tbody tr td:nth-child(5),
+
+#etatvente > table > thead tr th:nth-child(7),
+#etatvente > table > tbody tr td:nth-child(7),
+
+#etatvente > table > thead tr th:nth-child(4),
+#etatvente > table > tbody tr td:nth-child(4)
+{
+    width: 10%;
+}
+#etatvente > table > thead tr th:nth-child(4),
+#etatvente > table > tbody tr td:nth-child(4),
+#etatvente > table > thead tr th:nth-child(6),
+#etatvente > table > tbody tr td:nth-child(6),
+#etatvente > table > thead tr th:nth-child(8),
+#etatvente > table > tbody tr td:nth-child(8)
+
+{
+    width: 5%;
+}
+#etatvente > table > thead tr th:nth-child(2),
+#etatvente > table > tbody tr td:nth-child(2)
+{ width: 45%;}
+
+
+#list_margefacture > center > table tbody,
+#list_margefacture > center > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_margefacture  > center> table > thead th,
+#list_margefacture  > center> table > thead th{
+    width: 4%;
+}
+#list_margefacture > center > table,
+#list_margefacture > center > table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_margefacture > center > table thead, #list_margefacture > center > table tbody tr, 
+#list_margefacture > center > table thead, #list_margefacture > center > table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_margefacture > center > table thead,
+#list_margefacture > center > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_margefacture > center > table tbody tr ,
+#list_margefacture  > center > table tbody tr{
+    width: 100%;}
+#list_margefacture> center  > table > thead tr th:nth-child(1),
+#list_margefacture > center > table > tbody tr td:nth-child(1),
+#list_margefacture > center > table > thead tr th:nth-child(3),
+#list_margefacture > center > table > tbody tr td:nth-child(3),
+#list_margefacture > center > table > thead tr th:nth-child(4),
+#list_margefacture > center > table > tbody tr td:nth-child(4),
+#list_margefacture > center > table > thead tr th:nth-child(5),
+#list_margefacture > center > table > tbody tr td:nth-child(5),
+#list_margefacture > center > table > thead tr th:nth-child(6),
+#list_margefacture > center > table > tbody tr td:nth-child(6){
+    width: 15%;
+}
+
+#list_margefacture > center > table > thead tr th:nth-child(2),
+#list_margefacture> center  > table > tbody tr td:nth-child(2)
+{ width: 35%;}
+
+
+#etatjrnalvente >center>  table tbody,
+#etatjrnalvente >center> table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#etatjrnalvente  >center>  table > thead th,
+#etatjrnalvente  >center>  table > thead th{
+    width: 4%;
+}
+#etatjrnalvente > center> table,
+#etatjrnalvente >center>  table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#etatjrnalvente >center>  table thead, #etatjrnalvente >center>  table tbody tr, 
+#etatjrnalvente >center> table thead, #etatjrnalvente >center>  table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#etatjrnalvente >center>  table thead,
+#etatjrnalvente >center>  table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#etatjrnalvente >center>  table tbody tr ,
+#etatjrnalvente  >center>  table tbody tr{
+    width: 100%;}
+#etatjrnalvente>center> table > thead tr th:nth-child(1),
+#etatjrnalvente > center> table > tbody tr td:nth-child(1)
+{
+    width: 7%;
+}
+#etatjrnalvente >center>  table > thead tr th:nth-child(2),
+#etatjrnalvente >center>  table > tbody tr td:nth-child(2),
+#etatjrnalvente >center>  table > thead tr th:nth-child(7),
+#etatjrnalvente > center> table > tbody tr td:nth-child(7),
+#etatjrnalvente >center> table > thead tr th:nth-child(9),
+#etatjrnalvente > center>table > tbody tr td:nth-child(9)
+{
+    width: 7%;
+}
+#etatjrnalvente > center> table > thead tr th:nth-child(4),
+#etatjrnalvente > center> table > tbody tr td:nth-child(4),
+#etatjrnalvente > center> table > thead tr th:nth-child(5),
+#etatjrnalvente >center>  table > tbody tr td:nth-child(5),
+#etatjrnalvente >center>  table > thead tr th:nth-child(10),
+#etatjrnalvente >center>  table > tbody tr td:nth-child(10),
+#etatjrnalvente >center>  table > thead tr th:nth-child(8),
+#etatjrnalvente > center> table > tbody tr td:nth-child(8),
+#etatjrnalvente >center>  table > thead tr th:nth-child(6),
+#etatjrnalvente >center>  table > tbody tr td:nth-child(6){
+    width: 8%;
+}
+
+#etatjrnalvente >center>  table > thead tr th:nth-child(3),
+#etatjrnalvente> center>  table > tbody tr td:nth-child(3)
+{ width: 20%;}
+
+
+#list_venteclt >center>  table tbody,
+#list_venteclt >center> table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#list_venteclt  >center>  table > thead th,
+#list_venteclt  >center>  table > thead th{
+    width: 4%;
+}
+#list_venteclt > center> table,
+#list_venteclt >center>  table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#list_venteclt >center>  table thead, #list_venteclt >center>  table tbody tr, 
+#list_venteclt >center> table thead, #list_venteclt >center>  table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#list_venteclt >center>  table thead,
+#list_venteclt >center>  table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#list_venteclt >center>  table tbody tr ,
+#list_venteclt  >center>  table tbody tr{
+    width: 100%;}
+#list_venteclt>center> table > thead tr th:nth-child(1),
+#list_venteclt > center> table > tbody tr td:nth-child(1){
+    width: 8%;
+}
+#list_venteclt >center>  table > thead tr th:nth-child(2),
+#list_venteclt >center>  table > tbody tr td:nth-child(2){
+    width: 12%;
+}
+#list_venteclt >center>  table > thead tr th:nth-child(7),
+#list_venteclt > center> table > tbody tr td:nth-child(7),
+#list_venteclt >center> table > thead tr th:nth-child(8),
+#list_venteclt > center>table > tbody tr td:nth-child(8)
+{
+    width: 13%;
+}
+#list_venteclt >center>  table > thead tr th:nth-child(3),
+#list_venteclt > center>  table > tbody tr td:nth-child(3)
+{ width: 35%;}
+#list_venteclt > center> table > thead tr th:nth-child(4),
+#list_venteclt > center> table > tbody tr td:nth-child(4),
+
+#list_venteclt >center>  table > thead tr th:nth-child(6),
+#list_venteclt >center>  table > tbody tr td:nth-child(6){
+    width: 7%;
+}
+#list_venteclt > center> table > thead tr th:nth-child(5),
+#list_venteclt >center>  table > tbody tr td:nth-child(5){
+    width: 6%;
+}
+#etatventeartlist> table tbody,
+#etatventeartlist > table tbody{
+  
+    flex: 1 1 auto;
+    width: 100%;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    min-height: 400px; 
+    max-height: 400px;
+    height:auto !important;
+}
+#etatventeartlist  >  table > thead th,
+#etatventeartlist  >  table > thead th{
+    width: 4%;
+}
+#etatventeartlist >  table,
+#etatventeartlist >  table{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+#etatventeartlist >  table thead, #etatventeartlist >  table tbody tr, 
+#etatventeartlist > table thead, #etatventeartlist >  table tbody tr {
+    display: table;
+    table-layout: fixed;
+}
+#etatventeartlist >  table thead,
+#etatventeartlist > table thead{
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    width: calc(100% - 1.1em) !important;
+    flex: 0 0 auto;
+}
+#etatventeartlist >  table tbody tr ,
+#etatventeartlist  > table tbody tr{
+    width: 100%;}
+#etatventeartlist> table > thead tr th:nth-child(1),
+#etatventeartlist >  table > tbody tr td:nth-child(1){
+    width: 10%;
+}
+#etatventeartlist >  table > thead tr th:nth-child(2),
+#etatventeartlist >  table > tbody tr td:nth-child(2){
+    width: 30%;
+}
+#etatventeartlist > table > thead tr th:nth-child(7),
+#etatventeartlist > table > tbody tr td:nth-child(7),
+#etatventeartlist > table > thead tr th:nth-child(8),
+#etatventeartlist > table > tbody tr td:nth-child(8)
+{
+    width: 10%;
+}
+#etatventeartlist >  table > thead tr th:nth-child(3),
+#etatventeartlist >   table > tbody tr td:nth-child(3)
+{ width: 10%;}
+#etatventeartlist >  table > thead tr th:nth-child(4),
+#etatventeartlist >  table > tbody tr td:nth-child(4),
+
+#etatventeartlist >  table > thead tr th:nth-child(6),
+#etatventeartlist >  table > tbody tr td:nth-child(6){
+    width: 10%;
+}
+#etatventeartlist >  table > thead tr th:nth-child(5),
+#etatventeartlist >  table > tbody tr td:nth-child(5){
+    width: 10%;
+}
+
+

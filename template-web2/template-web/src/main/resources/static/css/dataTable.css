@@ -1,0 +1,141 @@
+.styleCsys .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0px;
+    border-width: 0px;
+}
+
+.styleCsys .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border-width: 0px;
+}
+
+.styleCsys td.highlight {
+    background-color: #ecf3f8;
+}
+
+.styleCsys td {
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+}
+
+.styleCsys td.txt-right {
+    text-align: right;
+}
+
+.dt-button-collection {
+    width: auto;
+}
+
+.styleCsys table.dataTable tbody td {
+    padding: 0px 10px!important;
+}
+.styleCsys table.dataTable thead th{
+    padding: 0px 10px!important;
+}
+
+.styleCsys .dataTables_scrollBody {
+    max-height: calc(100vh - 225px) !important;
+    position: initial !important;
+}
+
+div.dt-button-collection {
+    width: auto;
+}
+
+.styleCsys #bntContainer {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#zoneDate {
+    display: inline-flex;
+    padding-top: 5px;
+}
+
+#zoneDate input {
+    width: 90%;
+}
+
+.styleCsys .dataTable tbody .details-control:before {
+    color: #1293b8;
+}
+
+.styleCsys .form-inline .checkbox, .form-inline .radiobox {
+    width: 20px;
+    margin: 0 auto;
+}
+
+.styleCsys a.dt-button {
+    border-color: transparent;
+    background-image: linear-gradient(to bottom, transparent 0%, transparent 100%);
+    background-color: transparent;
+}
+
+
+table thead tr {
+    color: #1293b8;
+}
+
+.datatablesChangedRow {
+    background-color: antiquewhite !important;
+}
+
+.table-body-filtre {
+    position: absolute;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.table-body-filtre .filtre-column {
+    position: absolute;
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+    padding: 4px;
+    border: 1px solid #32c5d2;
+    z-index: 999;
+    top: 0px;
+    min-width: 220px;
+    max-width: 220px;
+    border-left: 10px solid #1293b8;
+    border-bottom: 3px solid #1293b8;
+}
+
+.table-body-filtre .filtre-options {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.hr-datatables {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 0;
+    border-top: 1px solid #81c1d3;
+}
+
+tr.selectedRow {
+    background-color: #81c1d3;
+}
+
+aside td:not(.contenteditable), .modal td:not(.contenteditable) {
+    color: gray;
+}
+
+*[contenteditable="true"] {
+    background-color: papayawhip;
+    outline: 1px solid #52A8EC !important;
+}
+
+/*table.dataTable tbody>tr.selected,table.dataTable tbody>tr>.selected {*/
+/*background-color: #c9dcff;*/
+/*}*/
+
+.csysWrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

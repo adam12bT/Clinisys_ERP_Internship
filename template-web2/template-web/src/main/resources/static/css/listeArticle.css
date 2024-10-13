@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 mars 2017, 12:23:20
+    Author     : Farouk
+*/
+
+  table tbody {
+    /* body takes all the remaining available space */
+
+
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+    max-height: 300px;
+    /* height:auto !important;*/
+}
+table {
+  width: 100%;
+}
+
+
+table tbody tr {
+    width: 100%;
+}
+.details-control{
+    width: 2%;
+}
+.desFam{
+     width: 15%;
+}
+.codart{
+    width: 10%;
+}
+.desart{
+    width: 30%;
+}
+.prix{
+    text-align: right;
+    width: 11%;
+}
+.qtestk{
+    text-align: right;
+    width: 11%;
+}
+.automatique{
+    width: 8%;
+}
+ .actif{
+     width: 8%;
+}
+.famArt{
+     display:none;
+}
+.actifbool{
+     display:none;
+}
+label {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.well{
+    padding: 4px;
+}
+
+.row div{
+    margin-bottom: 0px;
+}
+
+.famartmere
+{
+	display : none;
+}
+
+
+#Select_Parent_Fam{
+    LINE-HEIGHT: 32PX;  
+    font-size: 12px;
+    height: 32px;
+}
